@@ -1,0 +1,35 @@
+body {
+    background-color: green;
+}
+
+.container {
+    background-color: orange;
+    border: 2px solid red;
+    padding: 30px;
+    margin: auto;
+    width: 50%;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px rgb(0 0 0 / .8);
+}
+
+p {
+    font-size: 28px;
+}
+
+
+.form_container input {
+    width: 32%;
+    text-align: center;
+    font-size: 32px;
+
+    background-color: white;
+    border: 3px solid red ;
+    border-radius: 16px;
+    background-color: antiquewhite;
+}
+
+.error {
+    border: 1px solid black;
+    background-color: crimson;
+    border-radius: 16px;
+}

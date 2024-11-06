@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="ru" xmlns:th="https://www.thymeleaf.org">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html"; charset="UTF-8">
+        <title>For you</title>
+        <link rel="stylesheet" href="css/main.css">
+        <link rel="icon" type="image/x-icon" href="/image/favicon.png">
+    </head>
+
+    <body>
+        <div class="container">
+            <div th:if="${condition.condition}" class="error">
+                <p>Серьёзно? </p>
+            </div>
+
+            <h1>Загадка для тебя, в этот раз не сложная</h1>
+            <img src="image/evening.jpg" width="700" height="500">
+
+            <div class="form_container">
+                
+                <form action="#" th:action="@{/}" th:object="${form}" method="post">
+                    <P class="answer"><input type="text" th:field="*{answer}"></P>
+                    <p><input type="submit" value="Ответить"></p>
+                </form>
+            </div>
+        </div>
+    </body>
+</html>
