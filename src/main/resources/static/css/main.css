@@ -12,6 +12,11 @@ body {
     box-shadow: 10px 10px 10px 10px rgb(0 0 0 / .8);
 }
 
+img {
+    width: 60%;
+    height: 20%;
+}
+
 p {
     font-size: 28px;
 }

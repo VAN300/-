@@ -15,7 +15,7 @@ public class IndexController {
     @GetMapping("/")
     public String indexGet(Model model) {
         model.addAttribute("form", new Form());
-        model.addAttribute("condition", new Condition(false));
+        model.addAttribute("condition", new Condition(false));  
         return "index";
     }
 
